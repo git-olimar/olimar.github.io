@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivier MARLE - Dépannage & Conseil Informatique</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#accueil">
+                <i class="fas fa-laptop-code"></i> Olivier MARLE
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#competences">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-3 fw-bold mb-4 animate-fade-in">
+                        Dépannage & Conseil Informatique
+                    </h1>
+                    <p class="lead mb-4">
+                        <i class="fas fa-map-marker-alt text-primary"></i> LIEUSAINT
+                    </p>
+                    <p class="lead mb-5">
+                        Expert en dépannage informatique pour particuliers. 
+                        Assistance à distance, conseil personnalisé et optimisation de vos équipements.
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        <a href="#services" class="btn btn-primary btn-lg">
+                            <i class="fas fa-tools"></i> Mes Services
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-envelope"></i> Me Contacter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                <i class="fas fa-cogs text-primary"></i> Mes Services
+            </h2>
+            
+            <div class="row g-4">
+                <!-- Prise en main à distance -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>Prise en Main à Distance</h3>
+                        <p>Intervention rapide et efficace directement sur votre ordinateur grâce à la connexion à distance sécurisée.</p>
+                        <a href="https://anydesk.com/fr/downloads" target="_blank" class="btn btn-primary mt-3">
+                            <i class="fas fa-download"></i> Télécharger AnyDesk
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Conseil d'achat -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Conseil d'Achat <span class="badge bg-success">Gratuit</span></h3>
+                        <p>Besoin d'un nouvel ordinateur ou périphérique ? Je vous guide pour choisir le matériel adapté à vos besoins et votre budget.</p>
+                    </div>
+                </div>
+
+                <!-- Nettoyage et optimisation -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h3>Nettoyage & Optimisation</h3>
+                        <p>Votre PC est lent ? Je nettoie et optimise votre système pour retrouver des performances optimales.</p>
+                    </div>
+                </div>
+
+                <!-- Installation de logiciels -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h3>Installation de Logiciels</h3>
+                        <p>Installation et configuration de vos logiciels, applications et mise à jour de vos systèmes.</p>
+                    </div>
+                </div>
+
+                <!-- Suppression de virus -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-virus"></i>
+                        </div>
+                        <h3>Suppression de Virus</h3>
+                        <p>Détection et suppression complète des virus, malwares et programmes indésirables.</p>
+                    </div>
+                </div>
+
+                <!-- Dépannage matériel -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3>Dépannage Matériel</h3>
+                        <p>Diagnostic et réparation de pannes matérielles, upgrade de composants (RAM, SSD, etc.).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="py-5 bg-dark-secondary">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                <i class="fas fa-star text-primary"></i> Domaines d'Expertise
+            </h2>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Systèmes Windows (7, 10, 11)</span>
+                    </div>
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Réseaux & Connexions Internet</span>
+                    </div>
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Sécurité & Antivirus</span>
+                    </div>
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Sauvegarde & Récupération de Données</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Installation Matériel & Logiciel</span>
+                    </div>
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Optimisation des Performances</span>
+                    </div>
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Configuration Email & Cloud</span>
+                    </div>
+                    <div class="competence-item">
+                        <i class="fas fa-check-circle text-success"></i>
+                        <span>Formation & Accompagnement</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <div class="info-box">
+                    <i class="fas fa-clock text-primary"></i>
+                    <h4>Disponibilité</h4>
+                    <p class="mb-0">Intervention rapide - Devis gratuit - Tarifs transparents</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                <i class="fas fa-envelope text-primary"></i> Me Contacter
+            </h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form-wrapper">
+                        <form action="contact.php" method="POST" id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nom" class="form-label">Nom *</label>
+                                    <input type="text" class="form-control" id="nom" name="nom" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="prenom" class="form-label">Prénom *</label>
+                                    <input type="text" class="form-control" id="prenom" name="prenom" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="telephone" class="form-label">Téléphone</label>
+                                    <input type="tel" class="form-control" id="telephone" name="telephone">
+                                </div>
+                                <div class="col-12">
+                                    <label for="sujet" class="form-label">Sujet *</label>
+                                    <select class="form-select" id="sujet" name="sujet" required>
+                                        <option value="">Choisir un service...</option>
+                                        <option value="Prise en main à distance">Prise en main à distance</option>
+                                        <option value="Conseil d'achat">Conseil d'achat</option>
+                                        <option value="Nettoyage et optimisation">Nettoyage et optimisation</option>
+                                        <option value="Installation de logiciels">Installation de logiciels</option>
+                                        <option value="Dépannage matériel">Dépannage matériel</option>
+                                        <option value="Autre">Autre</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-paper-plane"></i> Envoyer
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-4">
+        <div class="container">
+            <p class="mb-2">&copy; 2024 Olivier MARLE - Dépannage & Conseil Informatique</p>
+            <p class="mb-0">
+                <i class="fas fa-map-marker-alt"></i> LIEUSAINT
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active nav on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
